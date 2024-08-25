@@ -3,4 +3,4 @@ def palindrome(s):
 
 while True:
     s = input("Enter a palindrome: ");
-    print(s,"is palindrome!" if palindrome(s) else "not a palindrome!");
+    print(s,"Yes!" if palindrome(s) else "No!", sep="\n");
